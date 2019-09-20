@@ -6,6 +6,7 @@ function WelcomeMessageDiv() {
     <div>Welcome to CryptoDash, please select your favorite coins to begin {' '}</div>
   )
 }
+
 export default function ({firstVisit}) {
   return (
     <AppContext.Consumer>
